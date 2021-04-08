@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(20, 24, 28);
+}
+
+.container-fluid {
+    opacity: 0;
+}
+
+.anchor {
+    display: block;
+    height: 8%;
+}
+
+.card {
+    opacity: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25) !important;
+    transition: 1s box-shadow;
+}
+
+.custom-card-background {
+    background-color: rgb(40, 44, 48) !important;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(200, 200, 200, .25) !important;
+}
